@@ -1,20 +1,25 @@
 import React from "react";
-import NavBar from './components/NavBar'
-import { Hero } from "./components/Hero";
-import Featured from "./components/Featured";
-import Signup from "./components/Signup";
-import Footer from "./components/Footer";
+import {Route, Routes} from "react-router-dom";
+import Splash from "./Splash";
+import Earn from "./components/Earn";
+import Navbar from "./components/NavBar";
 
 function App() {
   return (
     
-    <>
-      <NavBar/>
-      <Hero />
-      <Featured />
-      <Signup />
-      <Footer />
-    </>
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Splash />} />
+        <Route path="/earn" element={<Earn />} />
+        
+
+
+      </Routes> 
+        
+
+     
+    </div>
   );
 }
 

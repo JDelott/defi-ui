@@ -23,7 +23,7 @@ const handleClick = () => setClick(!click)
                         <a href='/'>Featured</a>
                     </li>
                     <li>
-                        <a href='/'>Earn</a>
+                        <a href='/earn'>Earn</a>
                     </li>
                     <li>
                         <a href='/'>Contact</a>
