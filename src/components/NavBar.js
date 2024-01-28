@@ -26,7 +26,7 @@ const handleClick = () => setClick(!click)
                         <a href='/earn'>Earn</a>
                     </li>
                     <li>
-                        <a href='/'>Contact</a>
+                        <a href='/contact'>Contact</a>
                     </li>
                 </ul>
                 <div className='btn-group'>

@@ -13,7 +13,7 @@ function Earn() {
         </div>
           {/* You can add multiple instances of EarnCarousel with different props if needed */}
         </div>
-        <div className="bottom-container">
+        <div className="bottom-container ">
 
         <EarnCarousel />
         </div>
